@@ -16,7 +16,7 @@ assessmentButton.addEventListener(//イベント検知設定の追加
     //診断結果表示エリアの作成
     resultDivision.innerText = '';//divタグを空文字で上書き
     const headerDivision = document.createElement('div')//divタグの作成
-    headerDivision.setAttribute('class', 'card-header text-bg-primary')//class設定
+    headerDivision.setAttribute('class', 'card-header text-bg-danger')//class設定
     headerDivision.innerText = '診断結果';//タグの内側のテキストを設定
 
 
